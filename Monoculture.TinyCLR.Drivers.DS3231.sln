@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monoculture.TinyCLR.Drivers.DS3231", "Sources\Monoculture.TinyCLR.Driver.DS3231\Monoculture.TinyCLR.Drivers.DS3231.csproj", "{38BF1CE3-3E66-423A-AFF0-8B1002C13CCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monoculture.TinyCLR.Drivers.DS3231.Demo", "Sources\Monoculture.TinyCLR.Driver.DS3231.Demo\Monoculture.TinyCLR.Drivers.DS3231.Demo.csproj", "{6019BD3B-A388-4571-87A7-B2DF9439A9E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{285EAEB6-8D4D-47F7-B4B4-2C7A1347666E}"
+	ProjectSection(SolutionItems) = preProject
+		Build\build-pipeline.yml = Build\build-pipeline.yml
+		Build\SetPackageVersion.ps1 = Build\SetPackageVersion.ps1
+		Build\UpdateAssemblyInfo.ps1 = Build\UpdateAssemblyInfo.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Docs", "Docs", "{D27D5855-BDD3-49F3-B835-3132601B7058}"
+	ProjectSection(SolutionItems) = preProject
+		Docs\DS3231.pdf = Docs\DS3231.pdf
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F448119F-4011-4F1D-96AE-BCDF83A27B9B}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38BF1CE3-3E66-423A-AFF0-8B1002C13CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38BF1CE3-3E66-423A-AFF0-8B1002C13CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38BF1CE3-3E66-423A-AFF0-8B1002C13CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38BF1CE3-3E66-423A-AFF0-8B1002C13CCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6019BD3B-A388-4571-87A7-B2DF9439A9E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6019BD3B-A388-4571-87A7-B2DF9439A9E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6019BD3B-A388-4571-87A7-B2DF9439A9E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6019BD3B-A388-4571-87A7-B2DF9439A9E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2854A568-8C31-42A3-9600-F12A6FC7FD79}
+	EndGlobalSection
+EndGlobal
