@@ -10,7 +10,7 @@ queue:
 variables:
   BuildPlatform: 'Any CPU'
   BuildConfiguration: 'Release'
-  MajorVersion: 2
+  MajorVersion: 0
   MinorVersion: 1
   PatchVersion: 0
   
