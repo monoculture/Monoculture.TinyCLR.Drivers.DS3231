@@ -41,6 +41,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Monoculture.TinyCLR.Drivers.DS3231.nuspec" />
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
